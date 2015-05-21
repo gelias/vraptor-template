@@ -14,7 +14,7 @@ Instalação
 Baixe o projeto utilizando a linha de comando.
 
 ```
-git clone git@
+git clone https://github.com/gelias/vraptor-template.git
 
 ```
 Importe o projeto em seu eclipse, e instale a versão mais recente do plugin JBoss AS Tools.
