@@ -1,4 +1,4 @@
-package me.umov.auth.dao.function;
+package cc.juris.dao.function;
 
 import java.sql.CallableStatement;
 import java.sql.Connection;

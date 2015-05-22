@@ -1,4 +1,4 @@
-package me.umov.auth.dao;
+package cc.juris.dao;
 
 import static org.hibernate.criterion.Projections.rowCount;
 import static org.hibernate.criterion.Restrictions.eq;

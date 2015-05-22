@@ -1,4 +1,4 @@
-package me.umov.auth.controller;
+package cc.juris.controller;
 
 import javax.inject.Inject;
 

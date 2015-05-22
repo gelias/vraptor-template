@@ -1,8 +1,8 @@
-package me.umov.auth.service;
+package cc.juris.service;
 
 import javax.enterprise.context.RequestScoped;
 
-import me.umov.auth.dao.AbstractDao;
+import cc.juris.dao.AbstractDao;
 
 @RequestScoped
 public abstract class AbstractService<T> {

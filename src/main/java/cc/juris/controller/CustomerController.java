@@ -1,9 +1,9 @@
-package me.umov.auth.controller;
+package cc.juris.controller;
 
 import javax.inject.Inject;
 
-import me.umov.auth.model.Customer;
-import me.umov.auth.service.CustomerService;
+import cc.juris.model.Customer;
+import cc.juris.service.CustomerService;
 import br.com.caelum.vraptor.Controller;
 import br.com.caelum.vraptor.Get;
 import br.com.caelum.vraptor.Result;

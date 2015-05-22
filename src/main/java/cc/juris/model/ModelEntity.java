@@ -1,4 +1,4 @@
-package me.umov.auth.model;
+package cc.juris.model;
 
 public interface ModelEntity {
 

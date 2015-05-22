@@ -1,7 +1,7 @@
-package me.umov.auth.model;
+package cc.juris.model;
 
+import static cc.juris.model.type.EnvironmentCreationStatusType.getByStatus;
 import static javax.persistence.FetchType.LAZY;
-import static me.umov.auth.model.type.EnvironmentCreationStatusType.getByStatus;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -9,10 +9,10 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 
-import me.umov.auth.model.type.EnvironmentCreationStatusType;
-import me.umov.auth.model.type.EnvironmentType;
-
 import org.hibernate.annotations.Type;
+
+import cc.juris.model.type.EnvironmentCreationStatusType;
+import cc.juris.model.type.EnvironmentType;
 
 
 @Entity(name = "customer")
@@ -25,9 +25,9 @@ public class Customer implements ModelEntity {
 	@Column(name = "nome")
 	private String name;
 	
-//	@Column(name = "cli_ativo")
-//	@Type(type = "me.umov.auth.model.type.BooleanCharacterType")
-//	private Boolean active;
+	@Column(name = "cli_ativo")
+	@Type(type = "me.umov.auth.model.type.BooleanCharacterType")
+	private Boolean active;
 	
 //	@ManyToOne(fetch = LAZY)
 //	@JoinColumn(name = "customer")

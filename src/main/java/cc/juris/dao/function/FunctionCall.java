@@ -1,4 +1,4 @@
-package me.umov.auth.dao.function;
+package cc.juris.dao.function;
 
 import org.hibernate.jdbc.Work;
 

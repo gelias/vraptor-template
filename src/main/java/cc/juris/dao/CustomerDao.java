@@ -1,9 +1,9 @@
-package me.umov.auth.dao;
+package cc.juris.dao;
 
 import javax.enterprise.context.RequestScoped;
-import static org.hibernate.criterion.Restrictions.eq;
 
-import me.umov.auth.model.Customer;
+import cc.juris.model.Customer;
+import static org.hibernate.criterion.Restrictions.eq;
 
 @RequestScoped
 public class CustomerDao extends AbstractDao<Customer> {

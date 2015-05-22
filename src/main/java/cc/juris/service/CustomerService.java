@@ -1,10 +1,10 @@
-package me.umov.auth.service;
+package cc.juris.service;
 
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 
-import me.umov.auth.dao.CustomerDao;
-import me.umov.auth.model.Customer;
+import cc.juris.dao.CustomerDao;
+import cc.juris.model.Customer;
 
 @RequestScoped
 public class CustomerService {

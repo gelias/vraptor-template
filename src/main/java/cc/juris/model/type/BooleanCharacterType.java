@@ -1,4 +1,4 @@
-package me.umov.auth.model.type;
+package cc.juris.model.type;
 
 import org.hibernate.type.CharBooleanType;
 
